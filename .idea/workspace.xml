@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e629a16-8ed0-4915-b52a-e6bc342f0fd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +31,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.LatchDemo.executor": "Run",
+    "Application.MultiPrintDemo (1).executor": "Debug",
+    "Application.MultiPrintDemo (2).executor": "Run",
+    "Application.MultiPrintDemo (3).executor": "Run",
+    "Application.MultiPrintDemo.executor": "Run",
+    "Application.TestLockDemo (1).executor": "Run",
+    "Application.TestLockDemo (2).executor": "Run",
+    "Application.TestLockDemo (3).executor": "Run",
+    "Application.TestLockDemo.executor": "Run",
     "Application.Volatile.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -53,13 +57,41 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LatchDemo">
-    <configuration name="LatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="countdownlatch.LatchDemo" />
+  <component name="RunManager" selected="Application.MultiPrintDemo">
+    <configuration name="MultiPrintDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiPrintDemo" />
+      <module name="JavaDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiPrintDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiPrintDemo" />
+      <module name="JavaDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiPrintDemo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiPrintDemo" />
+      <module name="JavaDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiPrintDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiPrintDemo" />
+      <module name="JavaDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lock.TestLockDemo" />
       <module name="JavaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="countdownlatch.*" />
+          <option name="PATTERN" value="lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,17 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Volatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Volatile" />
-      <module name="JavaDemo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LatchDemo" />
-        <item itemvalue="Application.Volatile" />
+        <item itemvalue="Application.MultiPrintDemo" />
+        <item itemvalue="Application.MultiPrintDemo (3)" />
+        <item itemvalue="Application.MultiPrintDemo (2)" />
+        <item itemvalue="Application.MultiPrintDemo (1)" />
+        <item itemvalue="Application.TestLockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -96,11 +124,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723560816999</updated>
-      <workItem from="1723560818668" duration="1409000" />
+      <workItem from="1723560818668" duration="6895000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MultiPrintDemo.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
