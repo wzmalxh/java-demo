@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e629a16-8ed0-4915-b52a-e6bc342f0fd6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadLocalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fanxing/FanXingClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fanxing/FanxingClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multi/LockWithSynchronizdMultiPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multi/MultiPrintWaitNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multi/ThreadWorkerDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,16 +39,39 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Future.executor": "Run",
     "Application.LatchDemo.executor": "Run",
+    "Application.LockWithSynchronizdMultiPrint.executor": "Run",
     "Application.MultiPrintDemo (1).executor": "Debug",
     "Application.MultiPrintDemo (2).executor": "Run",
     "Application.MultiPrintDemo (3).executor": "Run",
     "Application.MultiPrintDemo.executor": "Run",
+    "Application.MultiPrintWaitNotify (1).executor": "Debug",
+    "Application.MultiPrintWaitNotify (2).executor": "Run",
+    "Application.MultiPrintWaitNotify (3).executor": "Run",
+    "Application.MultiPrintWaitNotify (4).executor": "Run",
+    "Application.MultiPrintWaitNotify.executor": "Debug",
+    "Application.SupplierDemo1.executor": "Run",
+    "Application.SynchronizedDemo.executor": "Run",
+    "Application.SynchronizedDemo2 (1).executor": "Run",
+    "Application.SynchronizedDemo2.executor": "Debug",
+    "Application.SynchronizedDemo3.executor": "Run",
+    "Application.TestLambdaDemo.executor": "Run",
     "Application.TestLockDemo (1).executor": "Run",
     "Application.TestLockDemo (2).executor": "Run",
     "Application.TestLockDemo (3).executor": "Run",
     "Application.TestLockDemo.executor": "Run",
+    "Application.TestWithThreadLocal (1).executor": "Run",
+    "Application.TestWithThreadLocal.executor": "Run",
+    "Application.ThreadLocalDemo.executor": "Run",
+    "Application.ThreadWorkerDemo.executor": "Run",
+    "Application.User.executor": "Run",
     "Application.Volatile.executor": "Run",
+    "Application.WithoutThreadLocal (1).executor": "Run",
+    "Application.WithoutThreadLocal (2).executor": "Run",
+    "Application.WithoutThreadLocal (3).executor": "Run",
+    "Application.WithoutThreadLocal (4).executor": "Run",
+    "Application.WithoutThreadLocal.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -57,41 +89,65 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MultiPrintDemo">
-    <configuration name="MultiPrintDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiPrintDemo" />
-      <module name="JavaDemo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiPrintDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiPrintDemo" />
-      <module name="JavaDemo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiPrintDemo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiPrintDemo" />
-      <module name="JavaDemo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiPrintDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiPrintDemo" />
-      <module name="JavaDemo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lock.TestLockDemo" />
+  <component name="RunManager" selected="Application.Future">
+    <configuration name="Future" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="async.Future" />
       <module name="JavaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lock.*" />
+          <option name="PATTERN" value="async.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupplierDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="supplier.SupplierDemo1" />
+      <module name="JavaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="supplier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWithThreadLocal (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadlocal.demo1.TestWithThreadLocal" />
+      <module name="JavaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadlocal.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWithThreadLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadlocal.demo1.TestWithThreadLocal" />
+      <module name="JavaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadlocal.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="async.consumer.User" />
+      <module name="JavaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="async.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MultiPrintDemo" />
-        <item itemvalue="Application.MultiPrintDemo (3)" />
-        <item itemvalue="Application.MultiPrintDemo (2)" />
-        <item itemvalue="Application.MultiPrintDemo (1)" />
-        <item itemvalue="Application.TestLockDemo" />
+        <item itemvalue="Application.Future" />
+        <item itemvalue="Application.User" />
+        <item itemvalue="Application.SupplierDemo1" />
+        <item itemvalue="Application.TestWithThreadLocal (1)" />
+        <item itemvalue="Application.TestWithThreadLocal" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +180,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723560816999</updated>
-      <workItem from="1723560818668" duration="6895000" />
+      <workItem from="1723560818668" duration="23039000" />
     </task>
     <servers />
   </component>
@@ -135,9 +191,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/MultiPrintDemo.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/java/multi/MultiPrintWaitNotify.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/supplier/SupplierDemo1.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/supplier/SupplierDemo1.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

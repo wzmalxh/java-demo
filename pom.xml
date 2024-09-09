@@ -6,4 +6,6 @@
   <version>1.0-SNAPSHOT</version>
   <name>Archetype - JavaDemo</name>
   <url>http://maven.apache.org</url>
+
+
 </project>
